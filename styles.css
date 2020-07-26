@@ -85,7 +85,8 @@ nav img{
 
 @media (max-width: 650px) {
   nav {
-    padding: 0 20px;
+    padding: 0 15px;
+    padding-left: 0;
   }
 }
 
@@ -247,6 +248,7 @@ nav .toggle .line3 {
 }
 
 .hero_text_block .hero_btn{
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -677,7 +679,7 @@ nav .toggle .line3 {
 
   .intro_section{
     flex-wrap: wrap;
-    padding: 0 20px;
+    padding: 0 25px;
   }
 
   .intro_text_block{
@@ -697,7 +699,7 @@ nav .toggle .line3 {
   }
 
   .reasons_section{
-    padding: 0 20px;
+    padding: 0 25px;
   }
 
   .reasons_wrapper .reason img{
@@ -732,7 +734,7 @@ nav .toggle .line3 {
 @media (max-width: 600px){
 
   .hero{
-    padding: 130px 20px 80px 20px;
+    padding: 130px 20px 80px 25px;
   }
 
   .hero_content img{
@@ -1151,12 +1153,12 @@ hr{
 
 .form_wrapper form input:focus{
   outline-style: none;
-  border-bottom: 2px solid #25323a;
+  border-bottom: 3px solid #6cc2b7;
 }
 
 .form_wrapper form textarea:focus{
   outline-style: none;
-  border-bottom: 2px solid #25323a;
+  border-bottom: 3px solid #6cc2b7;
 }
 
 .form_wrapper button{
@@ -1217,10 +1219,10 @@ hr{
     margin-top: 20px; 
   }
   .form_section{
-    padding: 50px 20px;
+    padding: 50px 25px;
   }
   .form_wrapper form{
-    padding: 30px;
+    padding: 25px;
     height: auto;
   }
   .form_wrapper form textarea{
@@ -1311,11 +1313,15 @@ footer{
   align-items: center;
 }
 
-.media_wrapper svg{
+.media_wrapper a{
   margin-right: 40px;
 }
 
-.media_wrapper svg:nth-last-child(1){
+.media_wrapper a:hover{
+  opacity: 0.9;
+}
+
+.media_wrapper a:nth-last-child(1){
   margin-right: 0;
 }
 
@@ -1370,11 +1376,11 @@ footer{
   .footer_contacts .contacts_p{
     font-size: 20px;
   }
-  .media_wrapper svg{
+  .media_wrapper a svg{
     width: 25px;
     height: 25px;
   }
-  .media_wrapper svg{
+  .media_wrapper a{
     margin-right: 25px;
   }
   footer{
