@@ -1224,6 +1224,7 @@ hr{
   .form_wrapper form{
     padding: 25px;
     height: auto;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
   }
   .form_wrapper form textarea{
     height: 120px;
