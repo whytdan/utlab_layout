@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+
 }
 
 :root{
@@ -73,7 +75,6 @@ nav img{
 .links_list li a{
   text-decoration: none;
   margin-left: 30px;
-  font-family: var(--heebo);
   font-size: 18px;
   font-weight: 700;
   color: var(--secondary); 
@@ -242,7 +243,6 @@ nav .toggle .line3 {
 
 .hero_text_block p{
   font-size: 24px;
-  font-family: var(--heebo);
   color: var(--secondary);
   margin-top: 30px;
 }
@@ -261,7 +261,6 @@ nav .toggle .line3 {
   border: none;
   font-size: 18px;
   font-weight: 700;
-  font-family: var(--heebo);
   transition: all 0.25s ease-in-out;
 }
 
@@ -288,21 +287,18 @@ nav .toggle .line3 {
 
 .our_services h2{
   font-size: 42px;
-  font-family: var(--heebo);
   color: var(--primary);
   text-align: center;
 }
 
 .tech_skills h2{
   font-size: 42px;
-  font-family: var(--heebo);
   color: var(--primary);
   text-align: center;
 }
 
 .trusted_companies h2{
   font-size: 42px;
-  font-family: var(--heebo);
   color: var(--primary);
   text-align: center;
 }
@@ -319,7 +315,6 @@ nav .toggle .line3 {
 }
 
 .dev_wrapper h3{
-  font-family: var(--heebo);
   font-weight: bold;
   font-size: 28px;
   color: var(--primary);
@@ -383,7 +378,6 @@ nav .toggle .line3 {
 }
 
 .tech_skill_item p{
-  font-family: var(--heebo);
   font-weight: bold;
   font-size: 16px;
   margin-top: 40px;
@@ -466,17 +460,16 @@ nav .toggle .line3 {
 }
 
 .service_item p{
-  font-family: var(--heebo);
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
   margin-top: 20px;
   color: var(--primary);
 }
 
 .service_item img{
-  width: 135px;
-  height: 135px;
+  width: 100px;
+  height: 100px;
 }
 
 .service_item .digital_service{
@@ -506,7 +499,8 @@ nav .toggle .line3 {
   }
 
   .service_item p{
-    font-size: 18px;
+    font-size: 16px;
+    max-width: 180px;
   }
 }
 
@@ -522,14 +516,17 @@ nav .toggle .line3 {
   }
 
   .our_services h2{
-    font-size: 32px;
+    font-size: 28px;
+  }
+
+  .dev_wrapper h3{
+    font-size: 24px;
   }
 }
 
 
 .intro_text_block h2{
   font-size: 42px;
-  font-family: var(--heebo);
   color: var(--primary);
 }
 
@@ -540,7 +537,6 @@ nav .toggle .line3 {
 
 .intro_text_block p{
   font-size: 18px;
-  font-family: var(--heebo);
   color: var(--secondary);
   margin-top: 30px;
 }
@@ -558,7 +554,6 @@ nav .toggle .line3 {
 
 .reasons_section h2{
   font-size: 42px;
-  font-family: var(--heebo);
   color: var(--primary);
 }
 
@@ -580,7 +575,6 @@ nav .toggle .line3 {
 .reason p{
   max-width: 553px;
   font-size: 18px;
-  font-family: var(--heebo);
   color: var(--secondary);
 }
 
@@ -749,6 +743,8 @@ nav .toggle .line3 {
 
   .hero_text_block h1{
     width: auto;
+    font-size: 32px;
+    width: 50%;
   }
 
   .intro_section img{
@@ -758,12 +754,12 @@ nav .toggle .line3 {
   }
 
   .intro_text_block h2{
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .reasons_section h2{
     text-align: start;
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .reasons_wrapper{
@@ -793,7 +789,7 @@ nav .toggle .line3 {
   }
 
   .tech_skills h2{
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .dev_wrapper{
@@ -890,7 +886,6 @@ nav .toggle .line3 {
 
 .icon_item .icon_title_world{
   font-size: 20px;
-  font-family: var(--heebo);
   font-weight: 700;
   color: var(--primary);
   text-align: center;
@@ -898,7 +893,6 @@ nav .toggle .line3 {
 
 .icon_item .icon_text{
   font-weight: 16;
-  font-family: var(--heebo);
   color: var(--primary);
   text-align: center;
 }
@@ -1051,7 +1045,7 @@ hr{
     margin-bottom: 80px;
   }
   .trusted_companies h2{
-    font-size: 32px;
+    font-size: 28px;
   }
   .trusted_companies{
     padding: 0 20px;
@@ -1091,21 +1085,19 @@ hr{
 }
 
 .form_wrapper h2{
-  font-family: var(--heebo);
   font-size: 42px;
   font-weight: bold;
   color: #25323A;
 }
 
 .form_wrapper p{
-  font-family: var(--heebo);
   font-size: 24px;
   color: #736E84;
   margin-top: 40px;
 }
 
 .form_wrapper form{
-  height: 760px;
+  height: auto;
   width: 100%;
   margin-top: 40px;
   box-sizing: border-box;
@@ -1117,7 +1109,6 @@ hr{
 
 .form_wrapper form label{
   font-size: 16px;
-  font-family: var(--heebo);
   font-weight: bold;
   color: #736E84;
 }
@@ -1126,7 +1117,6 @@ hr{
   background-color: #f6f6f6;
   margin-bottom: 25px;
   font-size: 16px;
-  font-family: var(--heebo);
   padding: 0 15px;
   margin-top: 20px;
   width: 100%;
@@ -1141,7 +1131,6 @@ hr{
   resize: none;
   margin-bottom: 25px;
   font-size: 16px;
-  font-family: var(--heebo);
   padding: 10px 15px;
   margin-top: 20px;
   width: 100%;
@@ -1170,7 +1159,6 @@ hr{
   background-color: #6CC2B7;
   border-radius: 40px;
   color: #fff;
-  font-family: var(--heebo);
   font-weight: bold;
   font-size: 18px;
   border: none;
@@ -1211,7 +1199,7 @@ hr{
     height: auto;
   }
   .form_wrapper h2{
-    font-size: 32px;
+    font-size: 28px;
   }
   .form_wrapper p{
     font-size: 18px;
@@ -1268,7 +1256,6 @@ footer{
 .footer_location .location_p{
   font-size: 24px;
   color: #25323A;
-  font-family: var(--heebo);
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.05em;
@@ -1283,7 +1270,6 @@ footer{
 
 .footer_data p{
   color: #736E84;
-  font-family: var(--heebo);
   font-weight: normal;
   text-align: center;
   margin-left: 15px;
@@ -1292,7 +1278,6 @@ footer{
 
 .footer_contacts .contacts_p{
   font-size: 28px;
-  font-family: var(--heebo);
   font-weight: bold;
   color: #25323A;
   letter-spacing: 0.05em;
@@ -1302,7 +1287,6 @@ footer{
 .footer_media .media_p{
   font-size: 24px;
   color: #25323A;
-  font-family: var(--heebo);
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.05em;
@@ -1335,7 +1319,6 @@ footer{
 .footer_cred p{
   color: #25323A;
   font-size: 16px;
-  font-family: var(--heebo);
   display: flex;
   align-items: center;
 }
@@ -1369,13 +1352,13 @@ footer{
 
 @media (max-width: 600px){
   .footer_location .location_p{
-    font-size: 20px;
+    font-size: 18px;
   }
   .footer_media .media_p{
-    font-size: 20px;
+    font-size: 18px;
   }
   .footer_contacts .contacts_p{
-    font-size: 20px;
+    font-size: 18px;
   }
   .media_wrapper a svg{
     width: 25px;
@@ -1391,4 +1374,11 @@ footer{
 
     font-size: 14px;
   }
+}
+
+.error{
+  color: #ff4444 !important;
+  margin-bottom: 20px !important;
+  display: block;
+  font-size: 12px !important;
 }
